@@ -1,0 +1,44 @@
+.todo-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(196, 193, 197);
+    &__item{
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+        
+    }
+    &__title{
+        margin-right: 12px;
+        cursor: pointer;
+    }
+    button{
+        border: none;
+        background-color: #e67e22;
+        color: #fff;
+        padding: 6px;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    &__form{
+        text-align: center;
+        input{
+            border: none;
+            outline: none;
+            padding: 6px;
+        }
+    }
+    &__edit-form{
+        text-align: center;
+        margin-top: 16px;
+        input{
+            border: none;
+            outline: none;
+            padding: 6px;
+        }
+    }
+}
